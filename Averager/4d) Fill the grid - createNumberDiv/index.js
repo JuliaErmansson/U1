@@ -19,7 +19,7 @@ This must append a div with a random number to the body each time it is called.
 */
 
 function createNumberDiv () {
-    let numberDiv = document.createElement("div");
+    let numberDiv = document.createElement("div");// Här har vi skapat en funktion som heter "" och i den skapas en div som tilldelar olika nummer mellan 0 - 99
     numberDiv.innerHTML = randomNumber(100);
 
     return numberDiv;
@@ -30,4 +30,4 @@ return Math.floor(max * Math.random());
 }
 
 
-document.querySelector("body").appendChild( createNumberDiv() );
+document.querySelector("body").appendChild( createNumberDiv() ); // Med det här blir "" ett barn till bodyn

@@ -23,13 +23,13 @@ function gridMaker (gridContainer, R, C){
                 for (let J = 0;J < C; J++){
                        let numberDivs = document.createElement ("div");
                        gridContainer.appendChild(numberDivs)
-                        }
+                        } //Nested loop, en loop i en loop
 
         }
                 // for (let i = 0;i < R*C; i++){
                 //         let numberDivs = document.createElement ("div");
                 //         gridContainer.appendChild(numberDivs)
-                //         }
+                //         }  One for loop, där vi gångar antalet rows med columns 
         }
 
         gridMaker(document.querySelector("#grid"),document.querySelector("#inputRows").value,document.querySelector("#inputCols").value);

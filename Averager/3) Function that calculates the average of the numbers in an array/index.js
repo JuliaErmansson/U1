@@ -70,4 +70,6 @@ function averg ( _array ) {
 averg([4,2]); // Expected: 3
 averg([-1,1]); // Expected: 0
 
+// Här har vi skapat en funktion som heter averg med parametern _array och med funktionen så kan man räkna ut vad average av en array är
+//I funktionen så konsol loggar vi funktionen adder_all och dividerar alla siffror i _array med arrayens längd.
 

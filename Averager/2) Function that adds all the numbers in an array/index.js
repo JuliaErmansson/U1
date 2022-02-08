@@ -34,6 +34,9 @@ function adder_all (_array) {
 }
 console.log(adder_all([5, 2, 1, 7]))
 
+// här har vi skapat en funktion som kallas adder_all med _array som parameter
+//i funktionen skapar vi en variabel som heter sum och en for - loop 
+
 /*
 
 The problem with adder_three is that it only works if the argument is an array of 3 elements.

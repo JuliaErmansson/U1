@@ -222,3 +222,7 @@ function roundString (numberWithManyDecimals, decimals) {
     decimals
   )
 }
+
+
+//console.log( [1,3,4,10,0,1].join(",") );
+console.log( [1,3,4,10,0,1].join(" - ") );
